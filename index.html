@@ -30,6 +30,8 @@ a { text-decoration: none; }
 
 .container {
   height: 5rem;
+  width: max-content;
+  min-width: 100%;
   margin: 0 auto;
   background-color: #fff;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
@@ -675,7 +677,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   display: none;
 }
 
-@media only screen and (max-width:1535px) {
+@media only screen and (max-width:1500px) {
   .container {
     display: none;
   }
@@ -798,7 +800,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     <a href="https://www.nakagawa-kikaku.co.jp/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ホーム</a>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">
-        <a href="https://www.nakagawa-kikaku.co.jp/index.php/company-information/">企業情報<i class="fa fa-caret-down"></i>
+        <a href="https://www.nakagawa-kikaku.co.jp/index.php/company-information/">企業情報 <i class="fa fa-caret-down"></i></a>
         </button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="https://www.nakagawa-kikaku.co.jp/index.php/company-information/" class="w3-bar-item w3-button">代表メッセージ</a>
@@ -811,7 +813,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     <div class="w3-dropdown-hover w3-hide-small">
 
         <button class="w3-padding-large w3-button" title="More">
-          <a href="https://www.nakagawa-kikaku.co.jp/index.php/our-business/">事業内容</a><i class="fa fa-caret-down"></i>
+          <a href="https://www.nakagawa-kikaku.co.jp/index.php/our-business/">事業内容 <i class="fa fa-caret-down"></i></a>
         </button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="https://www.nakagawa-kikaku.co.jp/index.php/building-business/" class="w3-bar-item w3-button">建築</a>
@@ -823,7 +825,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     </div>
     <div class="w3-dropdown-hover w3-hide-small">
       <button class="w3-padding-large w3-button" title="More">
-        <a href="https://www.nakagawa-kikaku.co.jp/index.php/public-facility/">実績</a><i class="fa fa-caret-down"></i>
+        <a href="https://www.nakagawa-kikaku.co.jp/index.php/public-facility/">実績 <i class="fa fa-caret-down"></i></a>
         </button>
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="https://www.nakagawa-kikaku.co.jp/index.php/public-facility/" class="w3-bar-item w3-button">公共施設</a>
@@ -845,7 +847,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px;">
   <a href="https://www.nakagawa-kikaku.co.jp/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ホーム</a>
   <a href="https://www.nakagawa-kikaku.co.jp/index.php/company-information/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">企業情報</a>
   <a href="https://www.nakagawa-kikaku.co.jp/index.php/our-business/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">事業内容</a>
