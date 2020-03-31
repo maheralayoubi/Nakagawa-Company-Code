@@ -87,6 +87,23 @@ a { text-decoration: none; }
   padding-bottom: 15px;
 }
 
+.second-sub-menu:hover ul.sub-second-dropdown { display: block; }
+
+.nav-fostrap li ul.sub-second-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #ffff;
+  border: solid 1px;
+  border-color: #007ce2;
+}
+
+.sub-second-dropdown li {
+  background-color: #007ce2;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 .nav-fostrap li ul.dropdownwidefirst{
   position: absolute;
   left: -35rem;
@@ -399,10 +416,11 @@ a { text-decoration: none; }
 }
 
 .right-side-three {
+  margin-top: 6rem;
   margin-right: 5rem;
   float: right;
 }
-.right-side-three  li {
+.right-side-three-li {
   margin-top: 6rem;
   margin-bottom: 5rem;
   border-bottom: 1px solid #fff;
@@ -684,6 +702,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   .w3-top {
     display: block;
   }
+}
 
 </style>
 
@@ -758,31 +777,33 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
                 <p class="leftTitle">実績</p></li>
               </div>
               <div class="right-side-three">
-                <li>
+                <li class="right-side-three-li">
                   <img class="subNavImage" style="height:9.55rem; width:10.5rem; margin-bottom: 5px" src="https://www.nakagawa-kikaku.co.jp/wp-content/uploads/2019/05/Screen-Shot-2019-05-06-at-15.39.12.png" alt="">
-                  <a href="https://www.nakagawa-kikaku.co.jp/index.php/public-facility/">公共施設</a></li>
-               <li>
+                  <a href="https://www.nakagawa-kikaku.co.jp/index.php/public-facility/">公共施設</a>
+                </li>
+               <li class="right-side-three-li">
                  <img class="subNavImage" style="height:10.8rem; width:10.9rem; margin-bottom:-3px" src="https://www.nakagawa-kikaku.co.jp/wp-content/uploads/2019/05/Screen-Shot-2019-05-06-at-16.47.36.png" alt="">
-                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/commercial-facility/">商業施設</a></li>
-               <li>
+                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/commercial-facility/">商業施設</a>
+               </li>
+               <li class="right-side-three-li">
                  <img class="subNavImage" style="height:10.8rem; width:10.7rem; margin-bottom:-3px" src="https://www.nakagawa-kikaku.co.jp/wp-content/uploads/2019/05/Screen-Shot-2019-05-06-at-16.48.00.png" alt="">
-                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/civil-engineering-environment/">土木・環境</a></li>
-                 <li>
+                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/civil-engineering-environment/">土木・環境</a>
+               </li>
+                 <li class="second-sub-menu right-side-three-li"">
                  <img class="subNavImage" style="border-radius: 100px; height:9.5rem; width:9.6rem; margin-bottom: 2px" src="https://www.nakagawa-kikaku.co.jp/wp-content/uploads/2019/11/Screen-Shot-2019-11-12-at-0.13.49.png" alt="">
                  <a href="https://www.nakagawa-kikaku.co.jp/index.php/other-achievements/#">その他実績</a>
-                 <ul class="dropdown arrowlast">
+                 <ul class="sub-second-dropdown">
                        <li><a href="https://www.nakagawa-global.com/">医療・福祉施設</a></li>
                        <li><a href="https://www.nakagawa-global.com/">工場・オフィス</a></li>
                        <li><a href="https://www.nakagawa-global.com/">伝統建築</a></li>
                        <li><a href="https://www.nakagawa-global.com/">住宅・マンション</a></li>
-                       <li><a href="https://www.nakagawa-global.com/">リフォーム・リノベーション/a></li>
+                       <li><a href="https://www.nakagawa-global.com/">リフォーム・リノベーション</a></li>
                        </ul>
-
-
-          </li>
-                                <li>
+                  </li>
+                <li class="right-side-three-li">
                  <img class="subNavImage" style="border-radius: 100px; height:9.4rem; width:9.6rem; margin-bottom:2px" src="https://www.nakagawa-kikaku.co.jp/wp-content/uploads/2019/08/Screen-Shot-2019-08-29-at-21.55.15.png" alt="">
-                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/tohoku-reconstruction-assistance/">東北の復興支援</a></li>
+                 <a href="https://www.nakagawa-kikaku.co.jp/index.php/tohoku-reconstruction-assistance/">東北の復興支援</a>
+               </li>
               </div>
             </ul>
           </li>
